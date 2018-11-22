@@ -1,0 +1,127 @@
+body{
+  margin: 0;
+  background-color: #e5e5e5;
+}
+
+.container{
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 25%;
+  /* border : 1px yellow solid; */
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+h3{
+  text-align: center;
+  font-family: roboto light;
+  letter-spacing: 4px;
+}
+
+form{
+  /* border: 1px solid red; */
+}
+
+.box{
+  text-align: center;
+}
+
+[type~="email"]{
+  color: gray;
+  border: solid 1px gray;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 10px;
+  width: 70%;
+  background: transparent;
+  outline: none;
+  font-size: 12px;
+}
+
+[type~="password"]{
+  color: gray;
+  border-top: none;
+  border-bottom: solid 1px gray;
+  border-left: solid 1px gray;
+  border-right: solid 1px gray;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 10px;
+  width: 70%;
+  background: transparent;
+  outline: none;
+  font-size: 12px;
+}
+
+#forgot{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 58%;
+  font-size: 12px;
+  font-family: roboto regular;
+}
+
+[type~="submit"]{
+  width: 75%;
+  background-color: #CA963F;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  color: white;
+  font-family: roboto medium;
+}
+
+.bot{
+  padding-top: 130px;
+  text-align: center;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.87);
+  line-height: 30%;
+  font-family: roboto regular;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+a:visited{
+  color: #FF7260;
+}
+
+a:hover{
+  color: red;
+}
+
+a:active{
+  color: #FF7260;
+}
+
+@media only screen and (min-width: 600px) {
+  .container{
+    margin-top: 10%;
+  }
+
+  [type~="email"]{
+    width: 20%;
+  }
+
+  [type~="password"]{
+    width: 20%;
+  }
+
+  [type~="submit"]{
+    width: 20%;
+  }
+
+  #forgot{
+    padding-left: 53.5%;
+  }
+
+}
